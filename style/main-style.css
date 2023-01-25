@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d1f2fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #251d49;
+}
+
+.head{
+    margin: 10px 10px 0 10px;
+    height: 50px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head img{
+    height: 45px;
+    width: auto;
+}
+
+.head .profile-picture{
+    border-radius: 50%;
+    
+}
+
+#search{
+    margin-top: 50px;
+    height: 35px;
+    width: 340px;
+    border-radius: 5px;
+    border: #d9d8d8 3px solid;
+    font-size: 20px;
+}
+
+.results{
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+}
+
+.posts{
+    width: 350px;
+    margin: 50px auto 60px auto;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts p{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.posts img{
+    width: 350px;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    background-color: #d9e1e3;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer img{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-option{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

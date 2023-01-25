@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d1f2fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.profile-pic{
+    height: fit-content;
+    width: fit-content;
+    margin: 100px auto 50px auto;
+}
+
+.profile-pic img{
+    border-radius: 50%;
+}
+
+.login-form{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #251d49;
+}
+
+.login-form h1{
+    margin-bottom: 40px;
+}
+
+.login-form input{
+    margin-top: 10px;
+    height: 25px;
+    width: 300px;
+
+}
+
+#submit-button{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: #ee454a;
+    border: none;
+    border-radius: 5px;
+    color: #ebebea;
+}
+
+.foot{
+    margin: 150px auto 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #251d49;
+    font-size: 16px;
+}
+
+.foot #sign-up{
+    color: #ee454a;
+}

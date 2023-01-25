@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d1f2fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #251d49;
+}
+
+.head{
+    margin: 10px 10px 0 10px;
+    height: 50px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head img{
+    height: 45px;
+    width: auto;
+}
+
+.head .profile-picture{
+    border-radius: 50%;
+    
+}
+
+.saved-posts{
+    width: 350px;
+    height: 400px;
+    margin: 20px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.saved-posts img{
+    width: 150px;
+    height: 100px;
+}
+
+.saved-posts .red-heart-icon{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+}
+
+.saved-item{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    background-color: #d9e1e3;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer img{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-option{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
